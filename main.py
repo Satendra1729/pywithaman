@@ -1,3 +1,5 @@
+import logging
+from day3_logging import logging_setup
 
 class Car :
     number_of_wheels = 4
@@ -7,6 +9,7 @@ class Car :
         print("this is a static method")
 
     def __init__(self,brand ,model, price): 
+        logging.info("Car object is created!!")
         print("called __init__")
         self.brand = brand
         self.model = model
@@ -31,6 +34,7 @@ class Car :
 
 
 if __name__ == "__main__":
+    logging_setup()
     car = Car("maruti","800", 123465)
     print(f"number of wheel in a car {Car.number_of_wheels}")
 

@@ -4,7 +4,7 @@
 - [X] project setup using uv
 - [X] venv 
 - [X] how to write a basic class 
-- [ ] logging
+- [X] logging basics
 - [ ] day wise talk
 - [ ] importlib, filemetadata
 - [ ] hatchling build
@@ -25,3 +25,9 @@
 - [ ] power of higher order function
 - [ ] datetime formatting with regex
 - [ ] csv 
+- [ ] warnings.warn
+- [ ] shared memory
+- [ ] exception logging
+
+
+- [ ] end goal : A CLI Tool
