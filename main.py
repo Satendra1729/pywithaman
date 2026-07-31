@@ -18,6 +18,7 @@ class Car :
         self.speed = 0
 
     def run(self,speed): 
+        "this is run of Car"
         self.speed = speed
         print(f"{self.brand} {self.model} is running at {speed}")
 
@@ -32,6 +33,9 @@ class Car :
         s += f"speed : {self.speed}\n"
         return s 
 
+    def __repr__(self): 
+        return "this __rpel__"
+
 
 if __name__ == "__main__":
     logging_setup()
@@ -45,4 +49,5 @@ if __name__ == "__main__":
     car("test")
     car_as_string = str(car)
     print(car_as_string)
+    print(Car.run.__doc__)
 

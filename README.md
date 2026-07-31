@@ -14,7 +14,7 @@
 - [ ] zip and __func__
 - [ ] set and list
 - [ ] tuples and train unpacking
-- [ ] __rpel__, __doc__
+- [X] __rpel__, __doc__
 - [ ] getter, setter and overriding
 - [ ] duck typing
 - [ ] slicing
