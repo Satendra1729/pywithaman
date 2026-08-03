@@ -11,13 +11,13 @@
 - [ ] uv entrypoint, wheel and sdist
 - [ ] click or argparse
 - [ ] map, reduce, map, sorted and filter with lambda
-- [ ] zip and __func__
-- [ ] set and list
+- [X] zip and __func__
+- [X] set and list
 - [ ] tuples and train unpacking
 - [X] __rpel__, __doc__
 - [ ] getter, setter and overriding
-- [ ] duck typing
-- [ ] slicing
+- [X] duck typing
+- [X] slicing
 - [ ] env, walk, open, seek, utf-8, json, xml
 - [ ] signals
 - [ ] multiprocessing, multi-threading
